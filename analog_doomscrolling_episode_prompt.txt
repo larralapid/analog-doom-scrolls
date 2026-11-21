@@ -1,0 +1,61 @@
+Analog Doomscrolling
+Production prompt
+
+Create the next analog doomscrolling reel or revise the requested haul. Deliver a downloadable MP4 and update the project repository at https://github.com/larralapid/analog-doom-scrolls.
+
+HAUL NUMBER: [three digits, or next available number for a new haul]
+STACK PHOTO(S): [attached]
+INTERIOR PAGE PHOTOS: [one per book, if available]
+
+Series copy
+analog doomscrolling, courtesy of the public library.
+testing how far the unlimited checkout policy goes.
+
+Series master
+Use 001/analog_doomscrolling_001_v5.mp4 as the visual and audio master and assets/blank-vintage-library-checkout-card.png as the card background. Recover the current versions from GitHub or use user-supplied copies of those versions. Treat the reference photo of typed text as a lettering sample.
+
+Before generating any video
+1. Read the repository README, workflow/checklist.md, and pertinent caption.md records. Transcribe each book in the submitted stack in top-to-bottom order. Verify obscured titles using a second angle, cover, title page, checkout list, or library catalog. Record the author and edition or ISBN where those distinguish similar titles.
+2. Compare each book against all earlier haul records, including drafts and alternate title spellings. Check ISBN as well as normalized title and author. If a title already appeared or could be a duplicate, tell Larra which book, which haul or hauls, and what matched. Wait for her decision before generating any video. Continue once she chooses to keep the repeat, remove it, or confirms a distinct work. Record that decision in the haul notes.
+3. Check source photos for glare and motion blur. Preserve the complete stack and its spine text. Ask for a better angle or title-page photo when the available evidence cannot resolve an identity or a potential repeat.
+4. Request one photo of an interior page from each book for the carousel. Match the photos to the book order. Record missing page photos as pending and carry on with the reel if the stack photo passes the checks above.
+
+Video production
+
+1. Start with the master opening
+Reserve the bottom 300 px of the 1080 × 1920 frame for TikTok post captions. Only the checkout-card background may appear from y=1620 through y=1919, from the first frame to the last. If a preview of the intended post shows its caption extending higher, increase the reserved height to clear it. Define B as the first row of the reserved area (default 1620). Fit the final stack above B and calculate coverage as its visible height divided by (B − 440), or 1180 px with the default margin. Compare the unrounded coverage with 70%. Recreate the master’s 101-frame typing sequence on the clean card at the position for the selected layout; use its original timing and synchronized audio. Keep the full checkout slip visible from frame one through the final hold, including its bottom half, worn corners, fibers, ruling and narrow dark outer edge. The opening caption may have a black backing box. The full card continues underneath and around that box. Use a locked camera.
+
+2. Match the lettering if rebuilding is necessary
+For either opening-caption position, use Latin Modern Mono Light (lmmonolt10-regular.otf), 81 px at 1080 × 1920, regular style. Render smooth antialiased warm-white letters on the black caption strip. Keep the counters of e and o open and the strokes fine and even. Apply the distressed ink treatment only to the stamps. Set the text in lowercase with these exact line breaks:
+
+testing how far
+the unlimited
+checkout policy
+goes.
+
+For a 1080 × 1920 frame, use a fixed character advance of about 42.5 px and a 79 px baseline interval. For coverage of 70% or higher, place the black box at x=48 and y=B−358 (1262 by default). Start the text at x=70 with its first baseline 75 px below the box top. The four default baselines are 1337, 1416, 1495 and 1574. Grow the box downward one line at a time. For coverage below 70%, use the outer edges of the black caption box for alignment. At 1080 × 1920 the full box is 736 × 334 px. Center it horizontally between the left and right frame edges (172 px on each side). Center it vertically in the open paper between the bottom edge of the lower red header rule and the highest visible point of the final, fitted stack. Use box top = round((first row below red rule + final stack top − box height) / 2). Recalculate from the actual stack for every episode. Keep the full black rectangle fixed from the first cursor through the final hold. Left-align the lettering inside it, inset 22 px, with its first baseline 75 px below the box top. Check that both side margins match and both vertical clearances match to within one pixel. Keep the completed caption on screen during all book arrivals, both stamps and the final hold. Type one character at a time. The slim white cursor follows each keystroke and blinks briefly after the period. Preserve the mechanical key sounds.
+
+3. Prepare the photographed books
+Correct the photo lighting before compositing. Remove room and cast shadows with the background; even out uneven exposure and neutralize color casts using white library labels as a reference. Reduce flash streaks and shiny speckles selectively, protecting actual lettering, jacket colors, wear, and fine grain. Retain only the narrow natural contact edges between books. Inspect every spine individually at source resolution for white flash bands, neutral glare on dark jackets, and glossy patches crossing text. Correct neutral reflections even when color saturation is near zero. For unprinted areas sample matching blank material from the same cover; over lettering, use local illumination separation and protect glyph shapes. Check for repeated letters, clipped strokes, false texture and visible patch edges. Use another supplied photo for obscured detail when available. If the source lacks enough detail for a clean repair, disclose the limitation. After encoding, compare a full-resolution final-hold frame with the original photo and check it again at phone size. If a conspicuous reflection remains, revise the local correction and rerender before delivery.
+Count the visible books and extract each spine from the photograph, including its real lettering, stickers, scuffs and irregular outline. Preserve the photographed colors, relative widths, thicknesses, offsets and top-to-bottom order. Use actual pixels for titles and call numbers. Confirm obscured details from a second photo, the title page or the library catalog. For a specifically approved spine repair, match the confirmed text and the photographed label placement and mark the reconstruction in the haul notes. Remove the surrounding room and objects. Keep any true gaps around the books transparent so the paper shows through.
+
+4. Build the stack
+At about 3.4 seconds, the top book from the photo pops into place immediately above the reserved caption margin. On each subsequent beat, place the next book underneath and shift the earlier books upward together. Use the same 1080 × 1920 card and header for every episode. Fit the complete stack into a 1028 px wide area from y=440 down to B with a single uniform scale factor for both axes. Keep the natural width-to-height ratio of every spine, including all lettering, stickers and artwork. Preserve original contact shadows and offsets between touching books. Center the stack horizontally and anchor its bottom edge immediately above B throughout the build. For a short stack the caption occupies the paper above it. Before export compare the script lettering and label proportions in the final frame directly with the photograph. With more books, redistribute arrivals through the same roughly three-second build. Each book gets one clean pop and one synchronized soft thump. Only in the 70%-or-higher layout does the stack progressively cover the bottom caption. Check the transition frames for stray pixels from the master’s books.
+
+5. Stamp the issue
+Reuse the master’s red stamp at its original position, scale, angle, and strike time (about 7.4 seconds). The full-stack frames just before and after the strike have identical book placement; their header difference isolates the impression on the matching paper. Preserve the single thin ring and patchy red ink. Inside the circle, “analog” and “doomscrolling” each have their own underline. A small gap separates the title from the smaller plain subtitle “a public library” / “experiment.” Preserve the photographed typewriter letterforms already present in the v5 stamp.
+
+About 0.6 seconds later, stamp the requested issue number in black directly onto the printed No.: ____ line. Keep leading zeroes, use the master’s mechanical numbering style, and give the digits the same grainy ink transfer. Replace all three old digits. The numbering field has no enclosing shape. Match the two stamp sounds to their respective strikes. Hold the finished card for about two seconds.
+
+6. Export and inspect
+Deliver analog_doomscrolling_[ISSUE NUMBER].mp4 at 1080 × 1920, 30 fps, H.264 with AAC audio, optimized for web playback. Aim for the master's 10.1-second runtime. Watch the encoded video at phone size. Check the opening lettering against v5, the book count and final order against the photo, and the number against the requested issue. Verify that the clicks, book thumps and stamp strikes land on their visible events.
+For the opening, book build and final hold, preview the encoded frames with a temporary overlay covering the reserved bottom strip. Verify the black caption box, cursor, complete bottom spine, library labels and stamps are all visible above it. Export the clean card without the test overlay.
+
+Mandatory sound and picture check for every issue
+Use the approved typewriter clicks, one thump on each book arrival, and the distinct red and black stamp strikes. Match the audible level and timing of the sound-checked 007–011 exports. Deliver stereo AAC-LC at 48 kHz with both channels carrying the effects and the audio track selected by default. Decode the finished MP4 and check both channels for opening clicks, every arrival and both strikes. Compare the event times with the visible frame changes. Preview the opening, build and final hold on the full-height paper card, including the clear bottom margin. For revisions, use source_url in the haul caption to recover the latest archived video and check for newer corrections supplied by Larra. Review the exact changed section after encoding. For an audio-only fix, copy its video stream directly.
+
+Archive and publish
+- Use the numbered haul folder for the final MP4, selected stack and carousel images under photos/, and caption.md based on workflow/haul-caption-template.md.
+- Record the final GitHub video link, draft caption, publication details when known, the verified books in stack order, and each available interior page photo. Treat a new caption as a draft until there is a confirmed live post.
+- Regenerate the book section of README.md from the haul records with python3 scripts/update_book_index.py. When a TikTok post goes live, fill in publish_date and publish_url and set status to published. Regenerate the README so the haul number links to the post.
+- Commit any approved enhancement to this prompt to GitHub with the related haul. Check that the archived filenames and links work on the destination branch.
