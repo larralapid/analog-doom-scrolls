@@ -6,6 +6,7 @@ A public library experiment.
 > testing how far the unlimited checkout policy goes.
 
 **TikTok account** · @mary.mogdalene
+
 **Project files** · [Production prompt](analog_doomscrolling_episode_prompt.txt) · [Photo-to-post checklist](workflow/checklist.md) · [Caption template](workflow/haul-caption-template.md)
 
 ## Make a haul
