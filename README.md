@@ -1,6 +1,6 @@
 # Analog Doomscrolling
 
-A public library experiment at the Cincinnati & Hamilton County Public Library.
+A public library experiment.
 
 > analog doomscrolling, courtesy of the public library.  
 > testing how far the unlimited checkout policy goes.
