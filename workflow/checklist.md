@@ -19,6 +19,7 @@ Copy this checklist into the working notes for each new haul. Check each item wh
 ## Export and archive
 
 - [ ] Check the first frame, the typing sequence, book arrivals, both stamps, the final hold, and the full checkout card through the bottom margin.
+- [ ] Step through all three typing line breaks in the encoded MP4. Verify the black backing starts as one strip and grows downward one line exactly as the cursor moves to that line. Check that the paper remains visible beneath every line that has yet to start.
 - [ ] Add and tailor the sound. Verify the typewriter clicks, one thump per book, and both stamp strikes against the encoded video. Listen through both audio channels.
 - [ ] Preview the export on a phone with the TikTok caption safe area covered. Verify titles, book edges, and stamps clear the caption.
 - [ ] Store the final MP4, selected photos, and `post.md` under the haul number. Record the actual GitHub video URL and update the README index.
